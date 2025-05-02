@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QA & Security Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-shield-halved"></i>
+        <span>QA.Security</span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#about">About</a>
+        <a href="#qa-expertise">QA Expertise</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <nav class="mobile-nav">
+        <a href="#about">About</a>
+        <a href="#qa-expertise">QA Expertise</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="terminal-badge">
+            <i class="fa-solid fa-terminal"></i>
+            <span>root@qa-security:~#</span>
+          </div>
+          <h1 class="hero-title">
+            <span class="text-white">Hi, I'm </span>
+            <span class="text-green">Milan Bomjan Tamang</span>
+          </h1>
+          <div class="typing-container">
+            <p class="typing-text" id="typingText"></p>
+            <span class="cursor">|</span>
+          </div>
+          <p class="hero-description">
+            Bridging the gap between quality assurance and security to deliver robust, secure, and high-quality
+            software solutions.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="button primary">
+              Contact Me <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#" class="button outline">
+              Download CV <i class="fa-solid fa-download"></i>
+            </a>
+          </div>
+        </div>
+        <div class="terminal-container">
+          <div class="terminal">
+            <div class="terminal-header">
+              <div class="terminal-button red"></div>
+              <div class="terminal-button yellow"></div>
+              <div class="terminal-button green"></div>
+              <div class="terminal-title">terminal</div>
+            </div>
+            <div class="terminal-body">
+              <p class="command">$ whoami</p>
+              <p class="response">qa_security_expert</p>
+              <p class="command">$ skills</p>
+              <p class="response">['qa_testing', 'security_testing', 'web automation']</p>
+              <p class="command">$ status</p>
+              <p class="response">Finding bugs before users do</p>
+              <p class="cursor-line">_</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">About Me</span>
+          <h2 class="section-title">QA & Security Professional</h2>
+          <p class="section-description">
+            With a passion for quality assurance and cybersecurity, I help organizations deliver secure and reliable
+            software.
+          </p>
+        </div>
+        <div class="cards-grid">
+          <div class="card">
+            <div class="card-header">
+              <i class="fa-solid fa-square-check"></i>
+              <h3>My Background</h3>
+            </div>
+            <p>
+              With over 1.5 years of experience in qualityWith over 1.5 years of experience in both quality assurance and cybersecurity, I bring a unique dual perspective to software testing. My combined expertise enables me to ensure that applications not only meet rigorous quality standards but also adhere to critical security requirements—uncovering issues that may be overlooked by teams focused on just one domain. assurance and cybersecurity, I specialize in ensuring
+              software meets both quality standards and security requirements. My dual expertise allows me to
+              identify issues that might be missed by teams focusing on only one aspect.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <i class="fa-solid fa-shield-halved"></i>
+              <h3>My Approach</h3>
+            </div>
+            <p>
+              I believe in a holistic approach to quality and security. By integrating security testing into the QA
+              process, I help organizations build robust applications from the ground up. My methodology combines
+              thorough testing with security best practices for comprehensive coverage.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <h3>My Expertise</h3>
+            </div>
+            <p>
+              My expertise spans manual and automated testing, test planning, security assessments, vulnerability
+              scanning, and penetration testing. I'm proficient with industry-standard QA tools like 
+              Cypress, and JMeter, as well as security tools like Burp Suite, OWASP ZAP, and Metasploit.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              <h3>My Mission</h3>
+            </div>
+            <p>
+              My mission is to help organizations deliver high-quality, secure software by bridging the gap between
+              QA and security teams. I believe that quality and security are not separate concerns but integral
+              parts of the same goal: creating trustworthy software that users can rely on.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QA Expertise Section -->
+    <section id="qa-expertise" class="qa-expertise">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">QA Expertise</span>
+          <h2 class="section-title">Quality Assurance</h2>
+          <p class="section-description">
+            My comprehensive approach to ensuring software quality and security through rigorous testing
+            methodologies.
+          </p>
+        </div>
+        <div class="cards-grid">
+          <div class="card">
+            <div class="card-header">
+              <i class="fa-solid fa-file-search"></i>
+              <h3>Test Planning & Strategy</h3>
+            </div>
+            <p>
+              Developing comprehensive test plans and strategies aligned with project requirements and security objectives.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <i class="fa-solid fa-bug"></i>
+              <h3>Defect Management</h3>
+            </div>
+            <p>
+              Identifying, documenting, and tracking bugs through their lifecycle while ensuring proper remediation.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <i class="fa-solid fa-circle-check"></i>
+              <h3>Test Automation</h3>
+            </div>
+            <p>
+              Creating and maintaining automated test suites using Selenium, Cypress, and other frameworks for efficient regression testing.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <i class="fa-solid fa-code-branch"></i>
+              <h3>CI/CD Integration</h3>
+            </div>
+            <p>
+              Implementing quality gates and security checks within CI/CD pipelines for continuous quality assurance.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <i class="fa-solid fa-chart-bar"></i>
+              <h3>Performance Testing</h3>
+            </div>
+            <p>
+              Conducting load, stress, and performance testing to identify bottlenecks and security vulnerabilities under load.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <i class="fa-solid fa-diagram-project"></i>
+              <h3>QA Process Improvement</h3>
+            </div>
+            <p>
+              Continuously refining testing methodologies and implementing best practices to enhance quality and security.
+            </p>
+          </div>
+        </div>
+
+        <div class="methodology-card">
+          <h3 class="methodology-title">My QA Methodology</h3>
+          <div class="methodology-steps">
+            <div class="methodology-step">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h4>Requirements Analysis</h4>
+                <p>
+                  Thoroughly analyzing requirements with a security-first mindset to identify potential
+                  vulnerabilities early.
+                </p>
+              </div>
+            </div>
+            <div class="step-connector"></div>
+            <div class="methodology-step">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h4>Test Planning</h4>
+                <p>
+                  Creating comprehensive test plans that cover functional requirements and security considerations.
+                </p>
+              </div>
+            </div>
+            <div class="step-connector"></div>
+            <div class="methodology-step">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h4>Test Execution</h4>
+                <p>
+                  Executing tests with both quality and security in mind, looking beyond functional correctness.
+                </p>
+              </div>
+            </div>
+            <div class="step-connector"></div>
+            <div class="methodology-step">
+              <div class="step-number">4</div>
+              <div class="step-content">
+                <h4>Security Validation</h4>
+                <p>
+                  Performing specialized security testing to identify vulnerabilities that traditional QA might
+                  miss.
+                </p>
+              </div>
+            </div>
+            <div class="step-connector"></div>
+            <div class="methodology-step">
+              <div class="step-number">5</div>
+              <div class="step-content">
+                <h4>Reporting & Continuous Improvement</h4>
+                <p>
+                  Providing detailed reports with actionable insights and continuously refining the testing process.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Skills</span>
+          <h2 class="section-title">Technical Arsenal</h2>
+          <p class="section-description">
+            The tools and techniques I use to ensure quality and security throughout the software lifecycle.
+          </p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h3 class="skill-title">Quality Assurance</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Test Planning & Strategy</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Manual Testing</span>
+                  <span class="skill-percentage">98%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 98%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Test Automation</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Regression Testing</span>
+                  <span class="skill-percentage">92%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 92%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-file-search"></i>
+            </div>
+            <h3 class="skill-title">QA Automation</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Selenium</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Cypress</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">JUnit/TestNG</span>
+                  <span class="skill-percentage">88%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">CI/CD Integration</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3 class="skill-title">Security Testing</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Web App Security</span>
+                  <span class="skill-percentage">92%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 92%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">API Security</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">OWASP Top 10</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Security Auditing</span>
+                  <span class="skill-percentage">88%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 88%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-bug"></i>
+            </div>
+            <h3 class="skill-title">Vulnerability Assessment</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Static Analysis</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Dynamic Analysis</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Threat Modeling</span>
+                  <span class="skill-percentage">82%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 82%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Risk Assessment</span>
+                  <span class="skill-percentage">88%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 88%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3 class="skill-title">Programming</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">JavaScript/TypeScript</span>
+                  <span class="skill-percentage">92%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 92%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Java</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">SQL</span>
+                  <span class="skill-percentage">88%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 88%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-terminal"></i>
+            </div>
+            <h3 class="skill-title">Tools & Frameworks</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Jira & TestRail</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Burp Suite</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Jenkins/GitHub Actions</span>
+                  <span class="skill-percentage">88%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Docker</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Projects</span>
+          <h2 class="section-title">QA & Security Portfolio</h2>
+          <p class="section-description">
+            A selection of my quality assurance and security projects, tools, and frameworks.
+          </p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://placehold.co/500x300" alt="Automated Test Framework">
+              <div class="project-type qa">
+                <i class="fa-solid fa-circle-check"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Automated Test Framework</h3>
+              <p class="project-description">
+                A comprehensive test automation framework built with Selenium and Cypress for web application testing with integrated security checks.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Selenium</span>
+                <span class="project-tag">Cypress</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">CI/CD</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link github">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="#" class="project-link demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://placehold.co/500x300" alt="Security-First QA Pipeline">
+              <div class="project-type hybrid">
+                <i class="fa-solid fa-file-search"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Security-First QA Pipeline</h3>
+              <p class="project-description">
+                A CI/CD pipeline that integrates security testing into the QA process, ensuring both quality and security requirements are met.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Jenkins</span>
+                <span class="project-tag">Docker</span>
+                <span class="project-tag">OWASP ZAP</span>
+                <span class="project-tag">Python</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link github">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="#" class="project-link demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://placehold.co/500x300" alt="API Testing & Security Suite">
+              <div class="project-type qa">
+                <i class="fa-solid fa-circle-check"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">API Testing & Security Suite</h3>
+              <p class="project-description">
+                A tool for comprehensive API testing that includes functional validation and security checks for common API vulnerabilities.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Postman</span>
+                <span class="project-tag">Newman</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">OAuth</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link github">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="#" class="project-link demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://placehold.co/500x300" alt="Web Vulnerability Scanner">
+              <div class="project-type security">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Web Vulnerability Scanner</h3>
+              <p class="project-description">
+                An automated tool that scans web applications for common vulnerabilities including XSS, SQL injection, and CSRF vulnerabilities.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">OWASP</span>
+                <span class="project-tag">Docker</span>
+                <span class="project-tag">REST API</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link github">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="#" class="project-link demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Certifications</span>
+          <h2 class="section-title">Professional Credentials</h2>
+          <p class="section-description">
+            Industry-recognized certifications validating my expertise in quality assurance and cybersecurity.
+          </p>
+        </div>
+        <div class="certifications-grid">
+          <!-- <div class="certification-card">
+            <div class="certification-icon">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h3 class="certification-title">ISTQB Certified Tester</h3>
+            <p class="certification-issuer">International Software Testing Qualifications Board</p>
+            <div class="certification-date">
+              <i class="fa-regular fa-calendar"></i>
+              <span>January 2023</span>
+            </div>
+            <a href="#" class="certification-link">
+              Verify <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div> -->
+
+          <div class="certification-card">
+            <div class="certification-icon">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h3 class="certification-title">Sb Computer CEH Training</h3>
+            <p class="certification-issuer">Sb Computer</p>
+            <div class="certification-date">
+              <i class="fa-regular fa-calendar"></i>
+              <span>March 2022</span>
+            </div>
+            <a href="#" class="certification-link">
+              Verify <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <!-- <div class="certification-card">
+            <div class="certification-icon">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h3 class="certification-title">Certified Test Engineer</h3>
+            <p class="certification-issuer">QA Certification Board</p>
+            <div class="certification-date">
+              <i class="fa-regular fa-calendar"></i>
+              <span>November 2021</span>
+            </div>
+            <a href="#" class="certification-link">
+              Verify <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div> -->
+
+          <!-- <div class="certification-card">
+            <div class="certification-icon">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h3 class="certification-title">CompTIA Security+</h3>
+            <p class="certification-issuer">CompTIA</p>
+            <div class="certification-date">
+              <i class="fa-regular fa-calendar"></i>
+              <span>May 2020</span>
+            </div>
+            <a href="#" class="certification-link">
+              Verify <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div> -->
+
+          <!-- <div class="certification-card">
+            <div class="certification-icon">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h3 class="certification-title">Certified Selenium Professional</h3>
+            <p class="certification-issuer">Selenium Certification Board</p>
+            <div class="certification-date">
+              <i class="fa-regular fa-calendar"></i>
+              <span>August 2021</span>
+            </div>
+            <a href="#" class="certification-link">
+              Verify <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div> -->
+
+          <!-- <div class="certification-card">
+            <div class="certification-icon">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h3 class="certification-title">OWASP Application Security Verification Standard</h3>
+            <p class="certification-issuer">OWASP Foundation</p>
+            <div class="certification-date">
+              <i class="fa-regular fa-calendar"></i>
+              <span>February 2022</span>
+            </div>
+            <a href="#" class="certification-link">
+              Verify <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Contact</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-description">
+            Have a security concern or interested in my services? Let's discuss how I can help.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p>2001milantamang@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <p>+977 9841907159</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>Boudha, kathmandu</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="contact-form-container">
+            <form class="contact-form" id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" placeholder="Your email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Your message" rows="5"></textarea>
+              </div>
+              <div class="form-secure">
+                <i class="fa-solid fa-lock"></i>
+                <span>Your information is encrypted and secure</span>
+              </div>
+              <button type="submit" class="button primary full-width">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-logo">
+        <i class="fa-solid fa-shield-halved"></i>
+        <span>QA.Security</span>
+      </div>
+      <p class="copyright">
+        © <span id="currentYear"></span> Milan Bomjan Tamang. All rights reserved.
+      </p>
+      <div class="footer-social">
+        <a href="#" class="footer-social-link">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" class="footer-social-link">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="#" class="footer-social-link">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
